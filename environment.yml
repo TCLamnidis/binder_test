@@ -1,0 +1,13 @@
+# You can use this file to create a conda environment for this pipeline:
+#   conda env create -f environment.yml
+name: PCA_session_2
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.7.1
+  - conda-forge::r=4.1
+  - bioconda::eigensoft=7.2.1
+  - bioconda::poseidon-trident
+  - pkgs/main::jupyter=1.0.0
